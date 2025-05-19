@@ -1,0 +1,69 @@
+/* =========================
+   Stili dell’applicazione
+   ========================= */
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+/* -------- Contenitore scrollabile -------- */
+#chatArea {
+    width: 100%;
+    max-width: 640px;
+    padding: 24px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;   /* scrollbar verticale */
+    height: 100%;       /* riempie la finestra */
+}
+
+/* -------- Blocchi di chat -------- */
+.block {
+    border: 1px solid #888;
+    border-radius: 4px;
+    padding: 12px;
+    margin-bottom: 12px;
+}
+
+/* Il primo blocco “spedito” resta fisso in alto ma nel flusso */
+.block.sent {
+    pointer-events: none;
+    opacity: .8;
+}
+
+.controls {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.answer.waiting {
+    border-top: 1px dashed #aaa;
+    margin-top: 8px;
+    padding-top: 8px;
+}
+
+.answer {
+    border: 1px solid #888;
+    border-radius: 4px;
+    padding: 12px;
+    margin: 8px 0 12px;
+}
+
+#btn-upload {
+    width: auto !important;
+    display: inline-flex !important;
+}
+
+/* ---------- Flag di stato ---------- */
+.flag-thinking  { color: #666; font-style: italic; }  /* grigio chiaro, corsivo */
+.flag-analysis  { background: #5ca; border-left: 4px solid #0ad; padding-left: 8px; }
+.flag-warning   { background: #f00; border-left: 4px solid #d10; padding-left: 8px; }

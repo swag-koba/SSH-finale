@@ -1,0 +1,70 @@
+/* sidebar.css */
+
+/* Bottone toggle fisso */
+#sidebar-toggle {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  width: 36px;
+  height: 36px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  z-index: 1001;            /* sopra la sidebar */
+  padding: 0;
+}
+
+/* Icon resizing */
+#sidebar-icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* Sidebar */
+#sidebar {
+  position: fixed;
+  left: 0; top: 0; bottom: 0;
+  width: 0;
+  overflow: hidden;
+  background: #f4f4f4;
+  transition: width 0.3s ease;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+#sidebar.expanded {
+  width: 250px;
+}
+
+.sidebar-section {
+  padding: 16px;
+  border-bottom: 1px solid #ddd;
+}
+.sidebar-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #333;
+}
+.sidebar-btn {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  padding: 8px 0;
+  cursor: pointer;
+  width: 100%;
+}
+.sidebar-btn:hover {
+  background: rgba(0,0,0,0.05);
+}
+.sidebar-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+.scroll-panel {
+  max-height: calc(100vh - 140px); /* aggiusta in base all’altezza header + funzionalità */
+  overflow-y: auto;
+  padding-right: 8px;
+}

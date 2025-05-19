@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document Retriever Chat</title>
+
+    <!-- foglio di stile esterno -->
+    <link rel="stylesheet" href="/static/css/style.css" />
+    <link rel="stylesheet" href="/static/css/sidebar.css" />
+</head>
+
+<body>
+    <!-- Pulsante di login in alto a destra -->
+    <a href="/login" class="login-btn" style="position: fixed; top: 10px; right: 10px; padding: 8px 16px; background: #007bff; color: #fff; text-decoration: none; border-radius: 4px; font-weight: 600;">Login</a>
+
+    <!-- Sidebar -->
+    <button id="sidebar-toggle">
+      <img id="sidebar-icon" src="/static/icons/open_sidebar.svg" alt="Apri sidebar" />
+    </button>
+
+    <div id="sidebar">
+      <!-- Sezione Funzionalità -->
+      <div class="sidebar-section">
+        <h2 class="sidebar-title">Funzionalità</h2>
+        <button id="btn-database" class="sidebar-btn">
+          <img src="/static/icons/database.svg" alt="Database" class="sidebar-icon" />
+          Database
+        </button>
+      </div>
+
+      <!-- Sezione Documenti -->
+      <div class="sidebar-section" id="doc-panel">
+        <h2 class="sidebar-title">Documenti</h2>
+        <div class="scroll-panel">
+          <!-- qui andrà la lista documenti -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Containers per la chat con il chatbot -->
+    <div id="chatArea"></div>
+
+    <!-- template invisibile per i nuovi blocchi -->
+    <template id="userBlockTpl">
+        <div class="block">
+            <input type="text" class="prompt" placeholder="Scrivi qui..." autocomplete="off" />
+            <div class="controls">
+                <!-- Pulsante Altro -->
+                <button id="btn-upload" class="sidebar-btn">
+                  <img src="/static/icons/file-upload.svg" alt="Carica documenti" class="sidebar-icon" />
+                </button>
+
+                <!-- Input file nascosto -->
+                <input type="file" id="file-input" accept=".pdf,.txt" style="display:none" />
+
+                <!-- Toggle ricerca con ML o Regex -->
+                <button class="toggle">Toggle</button>
+                <img class="send" src="/static/icons/chat.svg" alt="Invia" width="20" />
+            </div>
+        </div>
+    </template>
+
+    <script type="module" src="/static/js/auth.js"></script>
+    <script type="module" src="/static/js/upload.js"></script>
+    <script src="/static/js/sidebar.js"></script>
+    <script src="/static/js/auth_check.js"></script>
+    <script type="module" src="/static/js/doc_panel.js"></script>
+    <script src="/static/js/main.js"></script>
+    <script src="/static/js/websocket.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+keyword: sicurezza
+keywords – rischio
+parola “compliance”
+parole: ‘analisi’
+termini ‘audit’
+termini: "privacy"
+stringa - dati
+stringhe “GDPR”
+keywords ‘monitoraggio’
+parola-trasparenza
+termini: accountability
+stringa: “conformità”
+termini – ‘responsabilità’
+parole sicurezza
+keyword 'cybersecurity'
+stringa: "segretezza"
+keywords: resilienza
+parola: controllo
+termini controllo
+termini “etica”
+stringa ‘log’
+stringa: reportistica
+parole rischio
+termini: tracciabilità
+keywords "firewall"
+keyword: protezione
+keyword compliance
+parola “alert”
+stringhe “accesso”
+stringa - 'monitoraggio'
+keywords: ‘sicurezza’
+parola “autenticazione”
+keywords: sicurezza, rischio, “compliance”
+termini: "privacy", ‘audit’, controllo
+parole – trasparenza etica responsabilità
+stringhe: “GDPR” e “dati”
+termini ‘monitoraggio’, log
+keywords: protezione e firewall
+keyword: alert, "accesso", tracciabilità
+stringhe ‘accountability’ e conformità
+termini: autenticazione, “reportistica”
+parole: rischio, sicurezza, ‘cybersecurity’
+keywords “privacy” ‘etica’ accesso
+parole - “audit” e “log”
+stringa: conformità, ‘compliance’, controllo
+keywords: resilienza, sicurezza, “alert”
+termini: firewall, autenticazione
+parole sicurezza, rischio
+parole: "trasparenza", 'controllo', dati
+stringhe: alert; reportistica; tracciabilità
+keywords: “responsabilità”, “etica”, “monitoraggio”
+termini – privacy e sicurezza
+termini rilevanti: “sicurezza”, “compliance”, “privacy”
+parole chiave: tracciabilità e responsabilità
+si richiedono keyword: “controllo”, “accesso”, “audit”
+ricerca stringhe: ‘dati’, ‘GDPR’, ‘etica’
+analizzare keywords “cybersecurity”, “autenticazione”
+termini di interesse: resilienza, trasparenza, monitoraggio
+verifica delle parole: conformità, accountability
+parole chiave da considerare: “privacy”, “log”
+elenco keyword utili: alert, firewall, controllo
+consultare i termini: “sicurezza”, “riservatezza”
+esaminare le seguenti parole chiave: “dati”, “reportistica”, “autenticazione”
+richiesta di stringhe: “audit”, “accesso”
+si desiderano keywords: “compliance”, “cybersecurity”, “responsabilità”
+parole da includere nella ricerca: “etica”, “monitoraggio”
+inserire termini: conformità, protezione
+analisi dei termini: “GDPR”, “controllo”, “rischio”
+elencare le parole chiave: sicurezza, resilienza
+sono richiesti i seguenti keyword: privacy, responsabilità
+indicazione di parole: alert, firewall
+hai roba su “sicurezza” e “privacy”?
+mi servono keyword tipo “compliance”, “controllo”
+parole come “audit” o “dati”
+cerco qualcosa su log, monitoraggio, accesso
+che si dice su ‘GDPR’ e ‘etica’?
+fammi vedere roba con keyword: rischio, responsabilità
+hai documenti con parole tipo ‘firewall’ e ‘protezione’?
+mi trovi roba su alert, autenticazione, tracciabilità?
+voglio stringhe come “accountability”, “riservatezza”
+qualcosa che parli di “privacy” e “conformità”
+termini tipo sicurezza, log, “cybersecurity”
+mi interessano parole come “controllo” e “dati”
+vediamo se c’è qualcosa con “reportistica”, “trasparenza”
+cerca tra i file se c’è ‘compliance’, ‘audit’, ‘etica’
+vorrei keyword tipo: resilienza, accesso, alert
+hai roba dove compaiono parole come ‘privacy’, ‘rischio’?
+qualcosa che menzioni firewall, sicurezza
+stringhe tipo “monitoraggio” e “autenticazione”
+vedi se ci sono termini: “responsabilità”, “log”, “accesso”
+dammi parole chiave tipo dati, sicurezza, conformità

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="flex items-center justify-center min-h-screen bg-gray-100">
+    <div class="bg-white p-8 rounded-2xl shadow-lg w-full max-w-sm">
+      <h1 class="text-2xl font-bold mb-6 text-center">Accedi</h1>
+
+      <form id="login-form">
+        <div class="mb-4">
+          <label
+            for="username"
+            class="block text-sm font-medium text-gray-700 mb-1"
+            >Username</label
+          >
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Inserisci username"
+            autocomplete="on"
+            required
+            class="w-full p-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+        </div>
+
+        <div class="mb-6">
+          <label
+            for="password"
+            class="block text-sm font-medium text-gray-700 mb-1"
+            >Password</label
+          >
+          <input
+            type="password"
+            id="password"
+            name="password"
+            autocomplete="new-password"
+            required
+            placeholder="Inserisci password"
+            class="w-full p-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+        </div>
+
+        <button
+          type="button"
+          id="btn-login"
+          class="w-full py-3 rounded-xl bg-blue-600 text-white font-semibold hover:bg-blue-700 transition-colors"
+        >
+          Conferma
+        </button>
+      </form>
+
+      <div class="mt-6 text-center">
+        <p class="mb-4 text-sm text-gray-600">
+          Se non hai un account, registrane uno
+        </p>
+        <button
+          type="button"
+          id="btn-register"
+          class="w-full py-3 rounded-xl bg-green-600 text-white font-semibold hover:bg-green-700 transition-colors"
+        >
+          Registrati
+        </button>
+      </div>
+
+      <!-- Messaggio di feedback -->
+      <div id="feedback" class="mt-6 text-center text-red-600"></div>
+    </div>
+
+    <script type="module" src="/static/js/reverse_client.js"></script>
+    <script type="module" src="/static/js/auth.js"></script>
+    <script type="module" src="/static/js/login_button_logic.js"></script>
+  </body>
+</html>

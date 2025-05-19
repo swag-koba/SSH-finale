@@ -1,0 +1,15 @@
+{
+  "name": "pythonproject_backend_done_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "dependencies": {
+    "bigint-crypto-utils": "^3.3.0",
+    "crypto-browserify": "^3.12.1",
+    "libsodium-wrappers": "^0.7.15"
+  }
+}
